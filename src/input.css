@@ -1,0 +1,45 @@
+/* global.css*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #0c000000;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0c000000;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #00000031;
+}
+
+.ownMessage {
+    width: fit-content;
+    background-color: rgba(0, 0, 139, 0.347);
+    border-radius: 0.75rem;
+    margin: auto;
+    padding: 0.50rem 0.75rem 0.50rem 0.75rem;
+
+}
+
+.otherMessage {
+    width: fit-content;
+    background-color: rgba(75, 85, 99, 0.347);
+    border-radius: 0.75rem;
+    margin: auto;
+    padding: 0.50rem 0.75rem 0.50rem 0.75rem;
+
+}
